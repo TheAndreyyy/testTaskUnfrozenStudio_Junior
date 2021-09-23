@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f41ba471efd6e4aaca26466daf6abb, type: 3}
+  m_Name: blueArmy
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 6242050386375425665, guid: 12804018d5bdbcd4296e38845e4aa564, type: 3}
+  characterLogic: {fileID: 0}
+  armyColor: 0
+  armyCharacters:
+  - cellNumber: 1
+    initiativeValue: 6
+    speedValue: 6
+  - cellNumber: 2
+    initiativeValue: 8
+    speedValue: 5
+  - cellNumber: 3
+    initiativeValue: 9
+    speedValue: 5
+  - cellNumber: 4
+    initiativeValue: 8
+    speedValue: 4
+  - cellNumber: 5
+    initiativeValue: 2
+    speedValue: 3
+  - cellNumber: 6
+    initiativeValue: 4
+    speedValue: 2
+  - cellNumber: 7
+    initiativeValue: 1
+    speedValue: 1
